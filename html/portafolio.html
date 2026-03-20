@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Jacob</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container  bg-$gray-300">
+            <a class="navbar-brand" href="#">Jacob</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="hero text-center text-dark">
+        <div class="container">
+            <h1 class="display-4">Hola, soy Jacob</h1>
+            <p class="lead">Desarrollador Web | Diseñador | Bilingue | Editor de Video</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Contáctame</a>
+        </div>
+    </header>
+
+    <section id="about" class="container py-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Sobre mí</h2>
+                <p>Soy Jacob, tengo 17 años, un desarrollador web con experiencia en crear sitios web atractivos y funcionales.
+                     Mi pasión por el desarrollo web comenzó hace años. Con experiencia en diseño grafico, en un nivel basico 
+                     y edicion de videos en un nivel intermedio. Tambien manejo el ingles con gran habilidad tuve estudios en 
+                     un instito profecional validado por la universidad de cambridge.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="../recursos/WhatsApp Image 2025-03-22 at 2.00.30 PM.jpeg" class="img-fluid rounded-circle" alt="Jacob">
+            </div>
+    </section>
+
+    <section id="projects" class="projects p-5 bg-light" >
+        <div class="container ">
+            <h2 class="text-center">Mis Proyectos</h2>
+            <div class="row">
+
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <img src="../recursos/java.png" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">desarrollo de problemas en java</h5>
+                            <p class="card-text">Uno de mis proyectos con mayor enfoque fue a mis incios como desarrollador de java donde se me solicito crear 
+                                un codigo de indole informacion maatematica donde se requeria que el usuario tuviera plena libertad sobre sus necesidades
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../recursos/ropa.jpg" class="card-img-top" alt="Proyecto 3" height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Creacion de una micro empresa</h5>
+                            <p class="card-text">De forma autonoma decidi iniciar la creacion de una micro empresa con lis conocimiento con los q contaba entonces cree una marca de ropa 
+                                inicie la creacion su propia pagina de compras mientras me encargaba del diseño y produccion de bajas cantidades de producto este fue mi proyecto mas ambisioso
+                                ya que el objetivo era juntar todas mis habilidades en un solo proyecto creado y manejado por mi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../recursos/h2.png" class="card-img-top" alt="Proyecto 2" height="200px" width="100px">
+                        <div class="card-body">
+                            <h5 class="card-title">Creación de una tieneda virtual</h5>
+                            <p class="card-text">En mis estudios siempre supe que una de mis proriddes seria el desarrolo web en uno de mis trabajos finales se solicito 
+                                la creacion de una pagina web local de poca rigurosidad, pero con el equipo de trabajo correcto se decidio crear una pagina de compras a la altura.
+                                enfocada en las masotas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="text-center">Contáctame</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Nombre</label>
+                        <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="Tu correo">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2025 Jacob. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
